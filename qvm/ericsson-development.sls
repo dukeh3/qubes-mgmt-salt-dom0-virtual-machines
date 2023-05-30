@@ -2,18 +2,18 @@
 # vim: set syntax=yaml ts=2 sw=2 sts=2 et :
 
 ##
-# qvm.personal
+# qvm.ericsson-development
 # ============
 #
-# Installs 'personal' AppVM.
+# Installs 'ericsson-development' AppVM.
 #
 # Pillar data will also be merged if available within the ``qvm`` pillar key:
-#   ``qvm:personal``
+#   ``qvm:ericsson-development``
 #
 # located in ``/srv/pillar/dom0/qvm/init.sls``
 #
 # Execute:
-#   qubesctl state.sls qvm.personal dom0
+#   qubesctl state.sls qvm.ericsson-development dom0
 ##
 
 include:
@@ -22,9 +22,9 @@ include:
 {%- from "qvm/template.jinja" import load -%}
 
 {% load_yaml as defaults -%}
-name:         personal
+name:         ericsson-development
 present:
-  - label:    yellow
+  - label:    orange
   - template:  ubuntu-2204
 prefs:
   - netvm:    sys-firewall
