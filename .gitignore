@@ -6,3 +6,6 @@ __pycache__/
 rpm/
 deb/
 pkgs/
+
+# PyCharm
+.idea/
