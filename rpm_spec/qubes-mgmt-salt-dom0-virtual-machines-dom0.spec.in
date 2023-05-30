@@ -78,6 +78,8 @@ fi
 /srv/formulas/base/virtual-machines-formula/qvm/hide-usb-from-dom0.sls
 /srv/formulas/base/virtual-machines-formula/qvm/personal.sls
 /srv/formulas/base/virtual-machines-formula/qvm/personal.top
+/srv/formulas/base/virtual-machines-formula/qvm/ericsson-development.sls
+/srv/formulas/base/virtual-machines-formula/qvm/ericsson-development.top
 /srv/formulas/base/virtual-machines-formula/qvm/sys-gui.sls
 /srv/formulas/base/virtual-machines-formula/qvm/sys-gui-template.sls
 /srv/formulas/base/virtual-machines-formula/qvm/sys-gui-vm.sls
